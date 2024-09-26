@@ -4,9 +4,14 @@ from stock_data import StockData
 from user import User
 
 def setup_database():
-    db = Database(user='root', password='newpassword', host='localhost')
-    db.create_database('stockTrading')
-    db = Database(user='ravish1996', password='newpassword', host='localhost', database='stockTrading')
+    # db = Database(user='root', password='newpassword', host='localhost')
+    # db.create_database('stockTrading')
+    db = Database(
+        user="stockAlgo_user",
+        password="New_password@1",
+        host="10.23.219.147",
+        database="stockTrading",
+    )
     db.create_tables()
     return db
 

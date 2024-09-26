@@ -1,22 +1,19 @@
-# DSCI 560 Lab 3 Part 2
-
-## Analysing Time Series and ML models to Stock Portfolios
+# Algorithmic Stock Trading with Predictive LSTM Model for Buy/Sell Signals
 
 
 ## Installation
 
-In order to run all the files for the part 2. We first need to activate the specific environment to get the right packages and their version.
+We first need to activate the specific environment to get the right packages and their version.
 
 ```bash
-source stock_algo_env/bin/activate
-pip install -r requirements.txt
+source .venv/bin/activate
 ```
 ## Deployment
 
-To first access the data, you can look at the directory called Part_1_Edited to get your data into your specified database. You may need to create your own database called "stockTrading". And make sure you have all privileges availble for the user you created. 
+First create your own user name and portfolio by following the portfolio maker directory. From there run the stock_trading script and follow the prompts. 
 
 ```bash
-  cd Part_1_Edited
+  cd portfolio_maker
   python3 run_stock_trading.py
 ```
 

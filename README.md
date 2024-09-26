@@ -22,7 +22,7 @@ Follow the prompts to design your own portfolio. In order to RUN the models, you
 To run all the models:
 
 ```bash
-cd ..
+cd algorithmic_trading
 ```
 
 From there you can run any of the files that start with "run" to test out the models on your specified portfolio. Just follow the prompts.
